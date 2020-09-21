@@ -176,6 +176,16 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .flex-hobbies {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex; 
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 auto;
+
+  }
+
   header {
     min-height: 470px;
   }
@@ -259,7 +269,7 @@ div .CSS-Art:hover{
 
 }
 
-div .Java-Logo:hover{
+div .HTML-Monitor:hover{
   transform: scale(1.2);
   
   }
@@ -270,4 +280,15 @@ div .Java-Logo:hover{
   border-radius: 50%;
   border: 5px ridge black;
 
+}
+
+.card-hobbies {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
 }
