@@ -101,25 +101,20 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color:grey;
 }
 
-ul.skills {
+.skills {
   padding: 0;
   text-align: center;
 }
 
-.skills li {
+.skills p {
   border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
+  background: black;
   color: white;
   padding: 5px 10px;
   margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
 }
 
 footer {
@@ -217,7 +212,6 @@ transform: scale(1.05);
   object-fit: contain;
   border:5px black ridge;
   border-radius: 10px;
-  transform: 
 
 }
 
@@ -227,7 +221,7 @@ transform: scale(1.05);
   
 }
 
-body .TH-Photo:hover {
+ .TH-Photo:hover {
   transform: scale(1.05);
   
   }
@@ -236,5 +230,44 @@ body .TH-Photo:hover {
   object-fit: contain;
   border:5px black ridge;
   border-radius: 10px;
+
+}
+
+div .HTML-Monitor:hover{
+transform: scale(1.2);
+
+}
+
+.HTML-Monitor {
+width: 200px;
+height: 200px;
+border-radius: 70%;
+border: 5px ridge black;
+
+}
+
+div .CSS-Art:hover{
+  transform: scale(1.2);
+  
+  }
+
+.CSS-Art {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  border: 5px ridge black;
+
+}
+
+div .Java-Logo:hover{
+  transform: scale(1.2);
+  
+  }
+
+.Java-Logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px ridge black;
 
 }
