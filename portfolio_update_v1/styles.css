@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: black;
 }
 /* Link Styles */
 
@@ -72,6 +72,7 @@ header .profile-image {
   border-radius:30px;
   border: 3px solid white;
   transition: all .5s;
+  object-fit: cover;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -83,16 +84,17 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  font-family: fantasy; 
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #efefef;
+  color: black;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -205,3 +207,34 @@ a.social:hover {
 
 }
 
+body .EMS-photo:hover {
+transform: scale(1.05);
+
+}
+
+.EMS-photo {
+  width: 28em;
+  object-fit: contain;
+  border:5px black ridge;
+  border-radius: 10px;
+  transform: 
+
+}
+
+.Ambulance-Container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+body .TH-Photo:hover {
+  transform: scale(1.05);
+  
+  }
+
+.TH-Photo {
+  object-fit: contain;
+  border:5px black ridge;
+  border-radius: 10px;
+
+}
