@@ -1,6 +1,7 @@
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
+  
 }
   
 body {
@@ -312,5 +313,25 @@ div .Java-Logo:hover{
   border-radius: 50%;
   border: 5px ridge black;
   object-fit: contain;
+
+}
+
+.Contact-Heading {
+font-family: fantasy;
+
+}
+
+.Hobbies-Heading {
+font-family: fantasy;
+
+}
+
+.Background-Heading {
+font-family: fantasy;
+
+}
+
+.Goals-Heading {
+font-family: fantasy;
 
 }
