@@ -175,16 +175,7 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
-
-  .flex-hobbies {
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: flex; 
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin: 0 auto;
-
-  }
+  
 
   header {
     min-height: 470px;
@@ -244,15 +235,15 @@ transform: scale(1.05);
 }
 
 div .HTML-Monitor:hover{
-transform: scale(1.2);
+  transform: scale(1.2);
 
 }
 
 .HTML-Monitor {
-width: 200px;
-height: 200px;
-border-radius: 70%;
-border: 5px ridge black;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  border: 5px ridge black;
 
 }
 
@@ -262,14 +253,14 @@ div .CSS-Art:hover{
   }
 
 .CSS-Art {
-  width: 200px;
-  height: 200px;
-  border-radius: 70%;
-  border: 5px ridge black;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    border: 5px ridge black;
 
-}
+  }
 
-div .HTML-Monitor:hover{
+div .Java-Logo:hover{
   transform: scale(1.2);
   
   }
@@ -282,13 +273,44 @@ div .HTML-Monitor:hover{
 
 }
 
-.card-hobbies {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
+.Target-Container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Target-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px ridge black;
+  object-fit: contain;
+
+}
+
+.Movie-Photo {
+  Width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px ridge black;
+  object-fit: contain;
+
+}
+
+.Coding-Photo {
+  Width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px ridge black;
+  object-fit: contain;
+
+}
+
+.Gaming-Photo {
+  Width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px ridge black;
+  object-fit: contain;
+
 }
